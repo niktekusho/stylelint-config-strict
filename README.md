@@ -17,11 +17,11 @@ $ npm install --save-dev stylelint stylelint-config-strict
 This set of configs is meant to be extended on a per-project basis as necessary
 using StyleLint's [shareable configs][] feature.
 
-To start, simply add `extends: ["strict"]` to your `.stylelintrc`:
+To start, simply add `extends: ["stylelint-config-strict"]` to your `.stylelintrc`:
 
 ```json
 {
-  "extends": ["strict"]
+  "extends": ["stylelint-config-strict"]
 }
 ```
 
@@ -29,7 +29,7 @@ Add any additional plugins you want, for example:
 
 ```json
 {
-  "extends": ["strict", "another-style-guideline"]
+  "extends": ["stylelint-config-strict", "another-style-guideline"]
 }
 ```
 
@@ -37,7 +37,7 @@ Feel free to define additional rules, or override them as you see fit:
 
 ```json
 {
-  "extends": ["strict"],
+  "extends": ["stylelint-config-strict"],
   "rules": {
       "string-quotes": "double"
   }
