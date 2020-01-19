@@ -6,7 +6,7 @@ cache:
 node_js:
   - stable
 after_success:
-  - 'travis-after-all && npm run semantic-release'
+  - "npm run semantic-release"
 env:
   global:
     - secure: Tibfl5oI5dyHK5lMGi+QW2jCzc8hKTWgy6jGJxaLgL3TGxMT5k3J25dfsM+UnJR2pfmrIHgyQ6S4UwNJgF0frfDlF3LqLpMODkep0Qq1km/szCMLL5XaJjOsN6Z7YLm+XCrJa4u/QGadIhigHkChmqKSyzapffJ0KRhxMo12wsc2ouyHknYY9jQpV0kyE2vl9aWNwN/a9hXj0bIjXgioaVK36rg8uF8nL5tby0Kisy2GaTLuqN6WOhWS6z9TzRg6ZiF602OzAnnIjatU4ZsFXdvyf4lNR2a0Jr2APBp9HbofRhb3bCP9wdb4kUigoDMiPgOJujREKUcgPyMKmFjuT7IvnFcUKorF6wx/PNfHoxynLJL/8EBtz0fbMeU4dl+Txgh8wIUE3Do5gEPL2r11EnnfWcJ6vjmzqR04Gkkr7MFR1DHbVhqtQell8L4pOs+x/+DzUGKgnoSZb7hxjsmwF2wQ9qtkd3mzGbX/FXlt5ERRN6VZZGnWph0r1QDn4ltBGHstV9aqWnfBpBm9q3zB71LFL631ebM740vbvDkL5JdOHVQm3WKOVe7sQanVBjZXbYatUb9S12++MXc3qeENgVUsxVNnPQWpc7WN5odEyKwFoiqBA8/Srp8WjiOlarbBq4bz8KKtdkjvHPK/VHrleOlQazLRsqIxpQnK4hkusO4=
